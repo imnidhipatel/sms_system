@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Offline Payment</title>
+	<!-- Mobile Specific Metas -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<!-- Font-->
+	<link rel="stylesheet" type="text/css" href="css/roboto-font.css">
+	<link rel="stylesheet" type="text/css" href="fonts/material-design-iconic-font/css/material-design-iconic-font.min.css">
+	<!-- datepicker -->
+	<link rel="stylesheet" type="text/css" href="css/jquery-ui.min.css">
+	<!-- Main Style Css -->
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+	<div class="page-content" style="background-image: url('images/wizard-v3.jpg')">
+		<div class="wizard-v3-content">
+			<div class="wizard-form">
+				<div class="wizard-header">
+					<h3 class="heading">Sign Up Your User Account</h3>
+					<p>Fill all form field to go next step</p>
+				</div>
+		        <form class="form-register" action="#" method="post">
+		        	<div id="form-total">
+		        		<!-- SECTION 1 -->
+			            <h2>
+			            	<span class="step-icon"><i class="zmdi zmdi-account"></i></span>
+			            	<span class="step-text">About</span>
+			            </h2>
+			            <section>
+			                <div class="inner">
+			                	<h3>Account Information:</h3>
+			                	<div class="form-row">
+									<div class="form-holder form-holder-2">
+										<label class="form-row-inner">
+											<input type="text" name="email" id="email" class="form-control" required>
+											<span class="label">Email Address</span>
+					  						<span class="border"></span>
+										</label>
+									</div>
+								</div>
+								<div class="form-row">
+									<div class="form-holder form-holder-2">
+										<label class="form-row-inner">
+											<input type="text" class="form-control" id="username" name="username" required>
+											<span class="label">Username</span>
+					  						<span class="border"></span>
+										</label>
+									</div>
+								</div>
+								<div class="form-row">
+									<div class="form-holder form-holder-2">
+										<label class="form-row-inner">
+											<input type="password" name="password_1" id="password_1" class="form-control" required>
+											<span class="label">Password</span>
+											<span class="border"></span>
+										</label>
+									</div>
+								</div>
+								
+							</div>
+			            </section>
+						<!-- SECTION 2 -->
+			            
+			            <!-- SECTION 3 -->
+			            <h2>
+			            	<span class="step-icon"><i class="zmdi zmdi-card"></i></span>
+			            	<span class="step-text">Payment</span>
+			            </h2>
+			            <section>
+			                <div class="inner">
+			                	<h3>Payment Information:</h3>
+
+			                	<div class="form-row">
+									<div class="form-holder form-holder-2">
+										<label class="form-row-inner">
+											<input type="text" class="form-control" id="holder" name="holder" required>
+											<span class="label">Holder Name*</span>
+					  						<span class="border"></span>
+										</label>
+									</div>
+								</div>
+			                	<div class="form-row">
+									<div class="form-holder form-holder-2">
+										<label class="form-row-inner">
+											<input type="number" class="form-control" id="holder" name="holder" required>
+											<span class="label">Bill Number</span>
+					  						<span class="border"></span>
+										</label>
+									</div>
+								</div>
+								<div class="form-row">
+									<div class="form-holder form-holder-2">
+										<label class="form-row-inner">
+											<input type="number" class="form-control" id="holder" name="holder" required>
+											<span class="label">Flat Number</span>
+					  						<span class="border"></span>
+										</label>
+									</div>
+								</div>
+								<div class="form-row">
+									<div class="form-holder form-holder-2">
+										<label class="form-row-inner">
+											<input type="text" class="form-control" id="holder" name="holder" required>
+											<span class="label">Subject</span>
+					  						<span class="border"></span>
+										</label>
+									</div>
+								</div>
+								<div class="form-row">
+									<div class="form-holder form-holder-2">
+										<label class="form-row-inner">
+											<input type="number" class="form-control" id="holder" name="holder" required>
+											<span class="label">Amount</span>
+					  						<span class="border"></span>
+										</label>
+									</div>
+								</div>
+			                	<div class="form-row form-row-date form-row-date-1">
+									<div class="form-holder form-holder-2">
+										<label for="date" class="special-label">Due Date :</label>
+										<select name="month_1" id="month_1">
+											<option value="Month" disabled selected>Month</option>
+											<option value="Feb">Jan</option>
+											<option value="Feb">Feb</option>
+											<option value="Mar">Mar</option>
+											<option value="Apr">Apr</option>
+											<option value="May">May</option>
+											<option value="Jun">Jun</option>
+											<option value="Jul">Jul</option>
+											<option value="Aug">Aug</option>
+											<option value="Sept">Sept</option>
+											<option value="Oct">Oct</option>
+											<option value="Nov">Nov</option>
+											<option value="Dec">Dec</option>
+										</select>
+										<select name="year_1" id="year_1">
+											<option value="Year" disabled selected>Year</option>
+											<option value="2020">2020</option>
+											<option value="2019">2019</option>
+											<option value="2018">2018</option>
+											<option value="2017">2017</option>
+											<option value="2016">2016</option>
+										</select>
+									</div>
+								</div>
+							</div>
+			            </section>
+			            <!-- SECTION 4 -->
+			            
+		        	</div>
+		        </form>
+			</div>
+		</div>
+	</div>
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/jquery.steps.js"></script>
+	<script src="js/jquery-ui.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>

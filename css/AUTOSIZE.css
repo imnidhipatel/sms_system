@@ -1,0 +1,70 @@
+@import url('http://font.googleapis.com/css?family='railway'');
+@import url('http://font.googleapis.com/css?family='oswald'');intro
+html,body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+.intro{
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    background: url("C:\Users\PC\Downloads\patrick-fore-0_AX9pab940-unsplash");
+    display: table;
+    top: 0;
+    background-size: cover;
+}
+.intro .inner{
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    max-width: none;
+}
+.content{
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+}
+.content h1{
+    font-family: 'railway',sans-serif;
+    color: #F9F3F4;
+    text-shadow: 0px 0px 300px #000;
+    font-size: 500%;
+}
+.btn{
+    border-radius: 16px;
+    font-family: 'oswald',sans-serif;
+    color:greenyellow;
+    font-size: 135%;
+    padding: 10px 20px;
+    border: solid greenyellow 3px;
+    text-transform:uppercase;
+    text-decoration: none;
+}
+.btn:hover{
+    color:#fff;
+    border:solid #fff 3px;
+}
+p{
+    font-size: 160%;
+    line-height: 210%;
+    text-align: justify;
+    margin: 3%;
+    font-family: sans-serif;
+}
+
+@media screen and{maxwidth:760px;}{
+    .content h1{
+        font-size: 250%;
+    }
+    .btn{
+        font-size: 110%;
+        padding: 7px 15px;
+    }
+    p{
+        font-size: 100%;
+        line-height: 160%;
+    }
+}
+
