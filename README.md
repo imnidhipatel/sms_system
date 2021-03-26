@@ -50,13 +50,13 @@ PHP Member Management System is a powerful PHP script that offers a secure user 
 
 ### How to Install
 
-* Edit Database (includes/config.php) and (admin/includes/config.php)
+# Edit Database (includes/config.php) and (admin/includes/config.php)
 
-* Login to Admin - (name,password)
+# Login to Admin - (name,password)
 * Username : Nidhi
 * Password : pass123
 
-* Login to User - (email,password)
+# Login to User - (email,password)
 * Username : user123@gmail.com
 * Password : user123
 
